@@ -7,21 +7,24 @@
 }
 
 .header{
+    margin-top: 180px;
     max-width: 250px;
     text-align: left;
     padding: 30px;
 }
 
 .header_title{
-    height: 140px ;
+    font-size: 40px;
+    height: 240px ;
     font-family:"Avenir-Heavy";
     color: var(--color-2)
 }
 
 .header_text{
+    max-width: 250px;
     font-family:"Avenir-Roman";
     color: var(--color-3);
-    margin: 1rem 0;
+    font-size:18px;  
 }
 
 .header_button{
@@ -32,53 +35,68 @@
     padding: 0.7rem 1.5rem;
     cursor: pointer;
     border-radius: 10px;
+    font-size: 18px; 
+    padding: 15px 30px;
 }
 
 .Image_Left{
-    max-width: 280px;
-    margin-right: -10px;
+    margin-top: -180px;
+    max-width: 350px;
+    position: absolute;
+    right: 550px;
+    margin-right: -110px;
 }
 
 .Image_Right{
-    max-width: 280px;
-    margin-top: 210px;
+    max-width: 350px;
+    position: absolute;
+    right: 50px;
+    margin-top: -40px;
 }
 
 .Images_down{
     display: flex;
-    justify-content: center; 
-    gap: 25px; 
-    height: 250px;
-    margin-top: 130px;
+    justify-content: space-between; 
+    padding: 0 42px; 
+    margin-top: 270px;
 }
 
 .N01{
     position: absolute;
-    top: 490px;
-    left: 35px; 
+    top: 590px;
+    font-size: 45px;
     color: var(--color-5);
-    font-size: 25px;
-    padding: 5px 10px;
-    font-family:"Avenir-Heavy";
+    font-family: "Avenir-Heavy";
+    right: 1805px;
 }
 
 
 .N02{
     position: absolute;
-    top: 490px;
-    left: 335px; 
+    top: 590px;
+    font-size: 45px;
     color: var(--color-5);
-    font-size: 25px;
-    padding: 5px 10px;
-    font-family:"Avenir-Heavy";
+    font-family: "Avenir-Heavy";
+    right: 1076px;
 }
 
 .N03{
     position: absolute;
-    top: 490px;
-    left: 630px; 
+    top: 590px;
+    font-size: 45px;
     color: var(--color-5);
-    font-size: 25px;
-    padding: 5px 10px;
-    font-family:"Avenir-Heavy";
+    font-family: "Avenir-Heavy";
+    right: 350px;
+}
+
+.I01{
+    max-width: 350px;
+}
+
+.I02{
+    max-width: 350px; 
+}
+
+.I03{
+    max-width: 350px; 
 }
