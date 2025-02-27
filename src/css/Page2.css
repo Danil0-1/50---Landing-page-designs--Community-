@@ -23,3 +23,13 @@
     color: var(--color-3);
     margin: 1rem 0;
 }
+
+.header_button{
+    font-family:"Avenir-Roman";
+    background-color: var(--color-2);
+    color: var(--color-4);
+    border: none;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+}
