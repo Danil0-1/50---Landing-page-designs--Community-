@@ -1,0 +1,30 @@
+@import url(variable.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  padding: 64px;
+}
+
+.header__class {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.header__title { 
+  color: var(--color-2);
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  margin-bottom: 24px;
+  width: 610px;
+  font-family: "Avenir-Heavy";
+}
