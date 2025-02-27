@@ -33,3 +33,13 @@
     cursor: pointer;
     border-radius: 10px;
 }
+
+.Image_Left{
+    max-width: 280px;
+    margin-right: -10px;
+}
+
+.Image_Right{
+    max-width: 280px;
+    margin-top: 210px;
+}
