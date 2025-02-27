@@ -1,0 +1,25 @@
+@import url(../css/variable.css);
+.container{
+    display: flex;
+    align-items: center;
+    height: 420px ;
+    gap: 2rem;
+}
+
+.header{
+    max-width: 250px;
+    text-align: left;
+    padding: 30px;
+}
+
+.header_title{
+    height: 140px ;
+    font-family:"Avenir-Heavy";
+    color: var(--color-2)
+}
+
+.header_text{
+    font-family:"Avenir-Roman";
+    color: var(--color-3);
+    margin: 1rem 0;
+}
