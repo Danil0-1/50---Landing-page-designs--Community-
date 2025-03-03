@@ -37,3 +37,19 @@ body {
     flex: 1;
     padding-left: 100px; 
 }
+
+.descripcion-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex: 1;
+    max-width: 50%;
+}
+
+.descripcion {
+    font-family: "Avenir-Roman";
+    font-size: 20px;
+    color: var(--color-3);
+    text-align: right;
+    margin-bottom: 10px;
+}
