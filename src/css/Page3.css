@@ -27,3 +27,13 @@ body {
     width: 100%;
     gap: 20px; 
 }
+
+
+.titulo {
+    font-family: "Avenir-Heavy";
+    font-size: 70px;
+    color: var(--color-2);
+    text-align: left;
+    flex: 1;
+    padding-left: 100px; 
+}
