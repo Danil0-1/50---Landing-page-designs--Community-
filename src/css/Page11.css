@@ -69,3 +69,33 @@
     left: 225px;
     z-index: 2;
 }
+
+.footer {
+    position: absolute;
+    width: 1312px;
+    height: 298px;
+    top: 666.66px;
+    left: 64px;
+    border-radius: 40px;
+    padding: 64px;
+    background-color: var(--color-2);
+}
+
+.containenido-texto {
+    font-family: "Avenir-Heavy";
+    display: flex;
+    gap: 118px;
+    justify-content: space-around;
+    color: var(--color-1);
+}
+
+.caja1 {
+    display: grid;
+    gap: 24px;
+    text-align: center;
+}
+
+.nube {
+    width: 24px;
+    height: 16px;
+}
