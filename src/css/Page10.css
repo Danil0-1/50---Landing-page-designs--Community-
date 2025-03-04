@@ -1,0 +1,19 @@
+@import url(variable.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-28);
+}
+
+.texto {
+    width: 449px;
+    height: 582px;
+    position: absolute;
+    top: 169px;
+    left: 132px;
+    gap: 24px;
+}
