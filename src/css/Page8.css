@@ -27,3 +27,39 @@ body {
     flex-direction: row;
     background: var(--color-19);
 }
+
+.imagenes { 
+    width: 656px;
+    height: 862.5px;
+    margin-top: 63px ;
+}
+
+.img-unsplash {
+    width: 618.33px;
+    height: 787.9px;
+    position: absolute;
+    margin-top: 67px;
+    z-index: 3;
+}
+
+.elipse {
+    position: absolute;
+    z-index: 1;
+    width: 656px;
+    height: 656px;
+}
+
+.patron1 {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    z-index: 2;
+}
+
+.patron2 {
+    width: 224px;
+    height: 224px;
+    position: absolute;
+    margin-top: 569px;
+    margin-left: 430px;
+}
