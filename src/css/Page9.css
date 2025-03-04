@@ -56,3 +56,42 @@ img:nth-child(2){
     border-style: none;
     font-size: 24px;
 }
+
+.lista {
+    width: 948px;
+    height: 272px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 428px;
+    margin-top: 217px;
+    gap: 80px;
+    border-radius: 144px;
+    background: var(--color-4);
+    backdrop-filter: blur(24px);
+}
+
+.marco {
+    width: 204px;
+    height: 192px;
+    padding-top: 40px;
+    padding-left: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.marco h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-22);
+}
+.marco p {
+    width: 204px;
+    height: 120px;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-22);
+}
+.linea {
+    width: 38px;
+    border: 2px solid var(--color-22);
+}
