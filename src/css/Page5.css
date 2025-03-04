@@ -1,0 +1,63 @@
+@import url(variable.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Avenir-Roman";
+    color: var(--color-2);
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.caja-texto {
+    width: 531px;
+    height: 208px;
+    font-size: 44px;
+    display: flex;
+    justify-self: flex-start;
+    margin-top: 64px;
+}
+
+.tarjeta {
+    font-family: "Avenir-Roman";
+    width: 1312px;
+    height: 549px;
+    display: flex;
+    justify-items: center;
+    gap: 56px;
+    margin-top: 69px;
+}
+
+.contenedor-tarjeta {
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--color-2);
+}
+
+.contenedor-tarjeta .numero {
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    opacity: 55%;
+}
+
+.contenedor-tarjeta .texto-tarjeta {
+    font-family: "Avenir-Roman";
+    width: 418px;
+    height: 132px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-size: 24px;
+}
+
+.contenedor-tarjeta .imagen-tarjeta {
+    width: 400px;
+    height: 345px;
+}

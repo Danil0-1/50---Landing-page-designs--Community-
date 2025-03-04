@@ -1,0 +1,97 @@
+@import url(variable.css);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1440px;
+    height: 926px;
+    background: var(--color-24);
+    justify-self: center;
+}
+
+img:nth-child(1){
+    position: relative;   
+    top: 414px;
+    left: 64px;
+    z-index: -1;
+}
+img:nth-child(2){
+    position: relative;   
+    left: 352.6px;
+    z-index: -1;
+}
+
+.texto {
+    width: 756px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-left: 275px;
+    margin-top: -450px;
+}
+.texto h1 {
+    font-family: "Poppins-Bold";
+    font-size: 88px;
+    color: var(--color-22);
+    line-height: 104px;
+}
+.texto p {
+    width: 659px;
+    height: 108px;
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-22);
+}
+.texto button {
+    width: 182px;
+    height: 66px;
+    font-family: "Poppins-Regular";
+    border-radius: 36px;
+    background: var(--color-22);
+    color: var(--color-4);
+    border-style: none;
+    font-size: 24px;
+}
+
+.lista {
+    width: 948px;
+    height: 272px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 428px;
+    margin-top: 217px;
+    gap: 80px;
+    border-radius: 144px;
+    background: var(--color-4);
+    backdrop-filter: blur(24px);
+}
+
+.marco {
+    width: 204px;
+    height: 192px;
+    padding-top: 40px;
+    padding-left: 88px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.marco h3 {
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+    color: var(--color-22);
+}
+.marco p {
+    width: 204px;
+    height: 120px;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+    color: var(--color-22);
+}
+.linea {
+    width: 38px;
+    border: 2px solid var(--color-22);
+}
