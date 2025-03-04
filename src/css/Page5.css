@@ -33,3 +33,17 @@ body {
     margin-top: 69px;
 }
 
+.contenedor-tarjeta {
+    width: 400px;
+    height: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: var(--color-2);
+}
+
+.contenedor-tarjeta .numero {
+    font-family: "Avenir-Heavy";
+    font-size: 32px;
+    opacity: 55%;
+}
