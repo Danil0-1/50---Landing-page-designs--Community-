@@ -47,3 +47,17 @@ body {
     font-size: 32px;
     opacity: 55%;
 }
+
+.contenedor-tarjeta .texto-tarjeta {
+    font-family: "Avenir-Roman";
+    width: 418px;
+    height: 132px;
+    color: var(--color-2);
+    opacity: 80%;
+    font-size: 24px;
+}
+
+.contenedor-tarjeta .imagen-tarjeta {
+    width: 400px;
+    height: 345px;
+}
