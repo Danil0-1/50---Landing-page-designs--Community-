@@ -64,3 +64,17 @@ span:nth-last-child(1) {
     font-weight: 400;
     line-height: 18px;
 }
+
+.seccionimagen {
+    position: relative;
+    width: 742px;
+    height: 792px;
+    top: 67px;
+    left: 1050px;
+    gap: 18px;
+}
+
+.imagen {
+    display: flex;
+    gap: 18px;
+}
