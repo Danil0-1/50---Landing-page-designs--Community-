@@ -157,6 +157,7 @@ main{
     margin-top: 562.27px;
 }
 .div__etiqueta-1 {
+    background-color:var(--color-11);
     position: absolute;
     width: 252px;
     height: 53px;
@@ -169,6 +170,7 @@ main{
     margin-left: 400px;
 }
 .div__etiqueta-1 h3{
+    background-color:var(--color-11);
     color: var(--color-1);
     font-family: "WorkSans-Regular";
     font-size: 18px;
@@ -186,6 +188,7 @@ main{
     margin-top: 619px;
 }
 .div__etiqueta-2 h3{
+    background-color:var(--color-11);
     color: var(--color-1);
     font-family: "WorkSans-Regular";
     font-size: 24px;
