@@ -17,3 +17,23 @@ body {
     left: 132px;
     gap: 24px;
 }
+
+span {
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 108px;
+    font-family: "Poppins-Bold";
+}
+
+span:nth-last-child(3) {
+    color: var(--color-31);
+    gap: 24px;
+}
+
+span:nth-last-child(2) {
+    color: var(--color-30);
+}
+
+span:nth-last-child(1) {
+    color: var(--color-29);
+}
