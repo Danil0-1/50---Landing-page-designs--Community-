@@ -63,3 +63,38 @@ body {
     margin-top: 569px;
     margin-left: 430px;
 }
+
+.contenido h1 {
+    height: 416px;
+    font-family: "WorkSans-Bold";
+    font-size: 88px;
+    color: var(--color-1);
+}
+
+.contenido {
+    width: 487px;
+    height: 674px;
+    margin-left: 169px;
+    margin-top: 134px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contenido button {
+    width: 231px;
+    height: 82px;
+    border-radius: 36px;
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
+    border-style: none;
+    background: var(--color-21);
+    color: var(--color-18);
+}
+
+.contenido p {
+    height: 96px;
+    font-family: "WorkSans-Light";
+    font-size: 24px;
+    color: var(--color-1);
+}
