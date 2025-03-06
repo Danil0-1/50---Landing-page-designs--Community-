@@ -1,0 +1,180 @@
+@import url(variable.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height: 1024px;
+}
+
+.img1 {
+    position: absolute;
+    width: 255px;
+    height: 320px;
+    top: 237px;
+    left: 311px;
+    border-width: 1.74px;
+}
+
+.img2 {
+    position: absolute;
+    width: 191px;
+    height: 242px;
+    top: 535px;
+    left: 921px;
+    border-width: 1.74px;
+}
+
+.img3 {
+    position: absolute;
+    width: 174px;
+    height: 173px;
+    top: 647px;
+    left: 1135px;
+}
+
+.img4 {
+    position: absolute;
+    width: 179px;
+    height: 176px;
+    top: 256.04px;
+    left: 106px;
+    transform: rotate(-101.78deg);
+}
+
+.card-1 {
+    font-family: "Times-Regular";
+    position: absolute;
+    width: 434px;
+    height: 104px;
+    top: 99px;
+    left: 64px;
+    gap: 8px;
+}
+
+.numero-1 {
+    font-family: "Times-Bold";
+    width: 434px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-35);
+}
+
+.texto-1 {
+    width: 434px;
+    height: 64px;
+    font-family: "Times-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-3);
+}
+
+.card-2 {
+    position: absolute;
+    width: 434px;
+    height: 104px;
+    top: 812px;
+    left: 942px;
+    gap: 8px;
+}
+
+.numero-2 {
+    font-family: "Times-Bold";
+    width: 434px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-35);
+}
+
+.texto-2 {
+    font-family: "Times-Regular";
+    width: 434px;
+    height: 64px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-3);
+}
+
+.texto3 {
+    font-family: "Times-Regular";
+    position: absolute;
+    width: 637px;
+    height: 692px;
+    top: 182px;
+    left: 401px;
+    text-align: center;
+}
+
+.texto3 img {
+    z-index: -2;
+    position: absolute;
+    width: 446px;
+    height: 711px;
+    left: 95px;
+}
+
+.texto3 h1 {
+    font-family: "Times-Regular";
+    width: 637px;
+    height: 324px;
+    font-weight: 400;
+    font-size: 112px;
+    line-height: 108px;
+    text-align: center;
+    color: var(--color-2);
+}
+
+.texto3 p {
+    width: 497px;
+    height: 162px;
+    padding-left: 154px;
+    font-family: "Times-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: var(--color-3);
+}
+
+.texto3 button {
+    width: 182px;
+    height: 66px;
+    gap: 10px;
+    border-radius: 36px;
+    padding: 24px 48px;
+    border: none;
+    background: var(--color-2);
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    color: var(--color-4);
+}
+
+.imgprin-1 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 432px;
+    left: 64px;
+}
+
+.imgprin-2 {
+    z-index: -1;
+    position: absolute;
+    width: 412px;
+    height: 528px;
+    top: 64px;
+    left: 964px;
+}
